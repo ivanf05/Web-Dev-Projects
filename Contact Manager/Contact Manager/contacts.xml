@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<contacts>
+<contact>
+<firstName>Paul</firstName>
+<lastName>Jones</lastName>
+<primaryNum>773-343-3456</primaryNum>
+<email>paul@gmail.com</email>
+<occupation>Doctor</occupation>
+<homeAddress>123 Main St</homeAddress>
+<zip>15235</zip>
+<city>Anywhere</city>
+<state>FL</state>
+<comment>Lives in Florida</comment>
+
+</contact>
+
+
+</contacts>

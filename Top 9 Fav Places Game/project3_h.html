@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Google Maps</title>
+        <link rel="stylesheet" type="text/css" href="project3_style.css">
+        <script src="project3_j.js"></script>
+    </head>
+    <body>
+		<h1 id ="welcome">
+			<font color = "white">Welcome to Location Guesser!</font>
+		</h1>
+		<div id  = "instructions">
+        <table>
+            <tr>
+                <td>
+					<font color="white">Instructions:</font>
+				</td>
+                <td> 
+                    <input id="instructions-id" type="text" value="Zoom in and move map around until you find my 9 favorite places" size="80" disabled>
+					 <font color="white">Zoom:</font>
+					 <input id="zoom-id" type="text" value="" size="6" disabled>
+                </td>
+				
+            </tr>
+			<tr>
+                <td>
+					<font color="white">Hint:</font>
+				</td>
+                <td>
+                    <input id="hint-id" type="text" value="" size="80" disabled>
+					<font color="white">Score:</font>
+					 <input id="score-id" type="text" value="0" style="text-align:right" size="6" disabled> 
+                </td>
+				<td>
+					<div id = "next_button"  style = "position: relative; 
+					visibility: hidden;">
+
+					<button type="button" autofocus onclick="Score()">Next Location</button>
+					</div>
+                </td>
+            </tr>
+			</table>
+			</div>
+		</body>
+		 <div id = "win" style = "position: relative; visibility: hidden;">
+			 <p>
+				<font color="white">Congratulations you won!</font>
+			 </p>
+		 </div>
+        <div id="myMapID"></div> 
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAp3FrUD8DUJ5u4yzeUBG_imkfDgtI4C5Y&callback=initMap"
+            async defer>
+        </script>
+   
+</html>

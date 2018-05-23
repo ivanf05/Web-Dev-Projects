@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<!-- Ivan Fonseca | Web and Dist. Programming | Project 4 Fall 2017-->
+<html lang = "en">
+  <head> <title> Contact Manager</title>
+    <link rel="stylesheet" type="text/css" href="contact_manager_style.css">
+    <script type = "text/JavaScript" src = "project4.js">
+    </script>
+    <meta charset = "utf-8" />
+  </head>
+  <body>
+    <h2 id ="title">Contact Manager</h2>
+	  <form action ="contact_manager_insert.php" method = "post">
+      <table>
+        <tr>
+          <td> First Name: </td>  
+          <td> <input type = "text"  name = "first_name" 
+                      id = "first_name"  size = "30" placeholder="First"/>
+          </td>
+		  <td> Last Name: </td>  
+          <td> <input type = "text"  name = "last_name" 
+                      id = "last_name" size = "30" placeholder="Last"/>
+          </td>
+        </tr>
+        <tr>
+          <td> Primary #: </td>
+          <td> <input type = "text"  name = "primary"  
+                      id = "primary" size = "30" placeholder="Ex: 123-456-7890" />
+          </td>
+		  <td> E-mail: </td>
+          <td> <input type = "text"  name = "email"  
+                      id = "email"  size = "30" placeholder="Ex: email@email.com" />
+          </td>
+        </tr>
+        <tr>
+          <td> Occupation:</td>
+          <td> <input type = "text"  name = "occupation"  
+                      id = "occupation"  size = "30" placeholder="Ex: Doctor" />
+          </td>
+          <td> Home Address: </td>
+          <td> <input type = "text"  name = "home_address"  
+                      id = "home_address"  size = "30" placeholder="Ex: 1234 S. 45th Ave."/>
+          </td>
+        </tr>
+		<tr>
+          <td> Zip Code: </td>
+          <td> <input type = "text"  name = "zip"  
+                      id = "zip"  size = "30" onfocus="zipFocusFunction()" onblur="zipBlurFunction()" placeholder="Ex: 60290"/>
+          </td>
+		  <td> City: </td>
+          <td> <input type = "text"  name = "city"  
+                      id = "city"  size = "30" placeholder="Ex: Chicago"/>
+          </td>
+        </tr>
+        <tr>
+          <td> State: </td>
+          <td> <input type = "text"  name = "state"  
+                      id = "state"  size = "30" placeholder="Ex: IL" />
+          </td>
+		  <td> Comments: </td>
+          <td> <input type = "text"  name = "comment"  
+                      id = "comment"  size = "30" placeholder="Ex. Speaks Spanish"/>
+          </td>
+        </tr>
+		<tr>
+	
+          <td>
+			
+			<td><input type="submit" value="Create"/></td>
+			 </form>
+          </td>
+          <td>
+          <form action ="contact_manager_home.php" method = "post">
+
+          <input type="submit" value="Home"/>
+          
+          </form>
+            
+          </td>
+        </tr>
+      </table>  
+</html>

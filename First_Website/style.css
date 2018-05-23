@@ -1,0 +1,67 @@
+body{
+background: #dbdbdb;
+}
+/* Transition within the Boxing 
+heading*/
+#hobby{
+	
+	text-align:center;
+	background-color: #f7e600;
+	width: 1255px;
+    height: 75px;
+    transition-property: width;
+    transition-duration: 2s;
+}
+#hobby:hover {
+    width: 250px;
+}
+/*Favorite Fighters table*/
+table, th, td {
+    border: 1px solid black;
+}
+/*#background-info{
+
+	width:200px;
+	float:right;
+	text-align:center;
+	
+}*/
+#box{
+	padding-right:20px;
+	float:left;
+}
+/*pseudo class */
+#my_in:hover{
+	color:red;
+}
+#my_xp:hover{
+	color:red;
+}
+#avp:hover{
+	color:red;
+}
+#fighting_styles:hover{
+	color:red;
+}
+#bob:hover{
+	color:red;
+}
+#index:hover{
+	color:red;
+}
+#fights:hover{
+	color:red;
+}
+#fighters:hover{
+	color:red;
+}
+/*#my_exp{
+	padding-right:40px;
+	width:900px;
+	float:right;
+
+}*/
+
+#left_field{
+	padding:10px
+}

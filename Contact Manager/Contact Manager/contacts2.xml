@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<contacts>
+
+<contact>
+<firstName>Sally</firstName>
+<lastName>Jones</lastName>
+<primaryNum>630-433-3456</primaryNum>
+<email>sally@gmail.com</email>
+<occupation>Dentist</occupation>
+<homeAddress>123 Main St</homeAddress>
+<zip>15256</zip>
+<city>Las Vegas</city>
+<state>NV</state>
+<comment>Works a Vegas Dental</comment>
+</contact>
+
+</contacts>

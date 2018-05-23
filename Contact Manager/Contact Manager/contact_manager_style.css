@@ -1,0 +1,24 @@
+body{
+	background:#EEEEEE;
+}
+hr{ 
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 1px;
+	
+}
+#button{
+	text-align:right;  
+} 
+#title{
+	color:white;
+	width:637px;
+	background:#000080;
+}
+#page{
+	text-align:center;
+}

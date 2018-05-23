@@ -1,0 +1,27 @@
+/* Always set the map height explicitly to define the size of the div element that contains the map. */
+#myMapID {
+height: 425px;
+width: 1260px;
+float:left;
+}
+body{
+background: #1B2936;
+}
+#instructions{
+	text-align:center;
+	
+}
+#win{
+	text-align:center;
+
+}
+
+button{
+	color: green;
+}
+
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
